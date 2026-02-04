@@ -1,0 +1,8 @@
+try:
+    a = int(input("Enter a number: "))
+    print(10/a)
+except ZeroDivisionError:
+    print("Can not divisible by zero")
+except ValueError:
+    print("Invalid input")
+

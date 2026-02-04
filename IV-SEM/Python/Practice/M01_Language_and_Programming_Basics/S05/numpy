@@ -1,0 +1,5 @@
+import numpy as np 
+arr = np.array([20,30,40])
+print(arr)
+print(np.arrange(2,20,30))
+n = int(input("Enter a number:"))
