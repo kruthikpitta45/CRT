@@ -2,6 +2,7 @@ from typing import List
 
 
 def Collatz_Sequence(n: int)-> List:
+      #Task
       sequence = []
       while n != 1:
          sequence.append(n)
