@@ -1,4 +1,5 @@
 def isUgly(n: int) -> bool:
+    #Task
     if n <= 0:
         return False
     for factor in [2, 3, 5]:
