@@ -1,11 +1,11 @@
-def isUgly(n: int) -> bool:
-    #Task
-    if n <= 0:
-        return False
-    for factor in [2, 3, 5]:
-        while n % factor == 0:
-            n //= factor
-    return n == 1
-if __name__ == '__main__':
+def count_digits(n: int) -> int:
+    count = 0
+    n = abs(n)
+    while n > 0:
+        n = n // 10
+        count += 1
+    return count
+
+if __name__ == "__main__":
     n = int(input())
-    print(isUgly(n))
+    print(count_digits(n))
